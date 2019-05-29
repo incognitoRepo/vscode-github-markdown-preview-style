@@ -26,7 +26,7 @@ This extension contributes the following settings:
 
 * `myExtension.enable`: enable/disable this extension
 * `myExtension.thing`: set to `blah` to do something
-
+vscode-github-markdown-preview-style.git
 ## Known Issues
 
 Calling out known issues can help limit users opening duplicate issues against your extension.
@@ -45,7 +45,7 @@ Fixed issue #.
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+Added features X, Y, git and Z.
 
 -----------------------------------------------------------------------------------------------------------
 
