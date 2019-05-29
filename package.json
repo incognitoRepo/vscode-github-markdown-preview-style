@@ -1,0 +1,43 @@
+{
+	"name": "markdown-custom-style",
+	"displayName": "markdown-custom-style",
+	"description": "custom css",
+	"version": "0.0.1",
+	"keywords": [
+		"markdown",
+		"markdown style",
+		"github",
+		"github markdown",
+		"multi-root ready"
+	],
+	"icon": "logo/logox128.png",
+	"publisher": "someDev",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/incognitoRepo/vscode-github-markdown-preview-style.git"
+	},
+	"engines": {
+		"vscode": "^1.34.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"contributes": {
+		"markdown.previewStyles": [
+			"./base.css",
+			"./github-markdown.css",
+			"./node_modules/highlight.js/styles/github.css"
+		]
+	},
+	"dependencies": {
+		"highlight.js": "^9.13.1"
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test",
+		"build": "node ./build/update-github-markdown-css.js"
+	},
+	"devDependencies": {
+		"github-markdown-css": "^2.10.0"
+	}
+}
